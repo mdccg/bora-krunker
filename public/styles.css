@@ -1,0 +1,103 @@
+@import './stylesheets/reset.css';
+
+@import './stylesheets/fontes.css';
+@import './stylesheets/paleta.css';
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+header {
+  background-image: url(./assets/icons/brick-wall.svg);
+  background-color: var(--imperial-primer);
+  background-size: 32px;
+  
+  padding: 8px 6.25vw;
+  min-height: 96px;
+  
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header h1 img { height: 64px; }
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li a {
+  align-items: center;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 48px;
+}
+
+header nav ul li svg {
+  margin-right: 16px;
+
+  color: white;
+  fill:  white;
+
+  height: 32px;
+}
+
+header nav ul li span {
+  font-family: 'Oswald';
+  font-size: 125%;
+  color: white;
+
+  text-transform: uppercase;
+}
+
+.navio {
+  background-image: url(./assets/icons/brick-wall.svg);
+  background-color: var(--wet-asphalt);
+  background-size: 32px;
+
+  min-height: 512px;
+
+  padding: 48px 96px;
+}
+
+.container {
+  background-color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    padding: 16px 0;
+  }
+
+  header h1 img,
+  header nav {
+    width: 100%;
+  }
+
+  header nav ul {
+    justify-content: space-evenly;
+  }
+
+  header nav ul li {
+    margin-right: 0;
+  }
+
+  .navio {
+    padding: 24px 0;
+  }
+}

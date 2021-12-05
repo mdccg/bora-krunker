@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="title" content="Revisão do jogo Krunker" />
+  <meta name="description" content="Website ilustrativo e sem fins lucrativos apresentado no Curso Superior de TSI do IFMS como requisito para obtenção da nota parcial das atividades da unidade curricular Construção de Páginas Web 1." />
+  <meta name="keywords" content="Krunker, FPS, First-Person Shooters, browser, navegador" />
+  <meta name="author" content="Matheus Comparotto, comparotto.js@gmail.com" />
+
+  <meta property="og:url" content="https://conheca-krunker.firebaseapp.com/" />
+  <meta property="og:title" content="Conheça Krunker, o melhor Browser FPS Game." />
+  <meta property="og:description" content="Um jogo multijogador on-line gratuito com inúmeras features para explorar." />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="https://conheca-krunker.firebaseapp.com/public/assets/images/home-screen.png" />
+
+  <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./stylesheets/pagina-principal.css" />
+  <title>Conheça Krunker</title>
+</head>
+<body>
+  <header class="noselect">
+    <h1>
+      <a href="#">
+        <img src="./assets/images/logotipo.png" alt="Krunker" />
+      </a>
+    </h1>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="pontos.html">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" class="svg-inline--fa fa-chart-line fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"></path></svg>            <span>Destaques</span>
+          </a>
+        </li>
+        <li>
+          <a href="galeria.html">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="images" class="svg-inline--fa fa-images fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M480 416v16c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V176c0-26.51 21.49-48 48-48h16v208c0 44.112 35.888 80 80 80h336zm96-80V80c0-26.51-21.49-48-48-48H144c-26.51 0-48 21.49-48 48v256c0 26.51 21.49 48 48 48h384c26.51 0 48-21.49 48-48zM256 128c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-96 144l55.515-55.515c4.686-4.686 12.284-4.686 16.971 0L272 256l135.515-135.515c4.686-4.686 12.284-4.686 16.971 0L512 208v112H160v-48z"></path></svg>            <span>Galeria</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="hero-image">
+    <div id="hero-textos">
+      <h2>Conheça Krunker</h2>
+  
+      <p>Um jogo multijogador on-line gratuito.</p>
+      <p>Não é necessário fazer download.</p>
+    </div>
+
+    <a id="acessar" href="https://krunker.io/" target="_blank">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="external-link-alt" class="svg-inline--fa fa-external-link-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path></svg>      <span>Acessar</span>
+    </a>
+  </div>
+
+  <div class="navio">
+    <div class="container">
+      <div id="previa-pontos-positivos">
+        <h3>Pontos positivos do game</h3>
+      </div>
+    </div>
+  </div>
+    
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBG4jOG1OC_mKLiy0T1rLj9tQ_-SyAtxio",
+      authDomain: "cpw1-93d13.firebaseapp.com",
+      projectId: "cpw1-93d13",
+      storageBucket: "cpw1-93d13.appspot.com",
+      messagingSenderId: "297778390917",
+      appId: "1:297778390917:web:63c86592445780e78bc6ec",
+      measurementId: "G-RNL241PSS0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>

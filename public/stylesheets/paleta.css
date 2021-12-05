@@ -1,0 +1,18 @@
+:root {
+  /* base URL => https://flatuicolors.com/palette */
+
+  /* /defo */
+  --wet-asphalt:     #34495e;
+
+  /* /us */
+  --mint-leaf:       #00b894;
+  --electron-blue:   #0984e3;
+  --city-lights:     #dfe6e9;
+  --soothing-breeze: #b2bec3;
+  --american-river:  #636e72;
+  --dracula-orchid:  #2d3436;
+  
+  /* /ca */
+  --fuel-town:       #576574;
+  --imperial-primer: #222f3e;
+}
