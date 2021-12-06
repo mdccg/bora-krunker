@@ -7,8 +7,10 @@ a {
   color: inherit;
 }
 
-em {
-  font-style: italic;
+em { font-style: italic; } 
+
+.tachado {
+  text-decoration: line-through;
 }
 
 /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
@@ -81,6 +83,14 @@ header nav ul li span {
   background-color: var(--fuel-town);
 }
 
+.navio.dividido {
+  display: flex;
+}
+
+.navio.dividido .container {
+  flex: 1;
+}
+
 .container {
   background-color: white;
 
@@ -126,26 +136,31 @@ h3 {
 }
 
 .ponto .ponto-corpo p {
-  width: 50%;
-
   font-family: "Roboto";
   color: var(--dracula-orchid);
-
+  
   line-height: 1.5;
-
+  
   margin-bottom: 8px;
+
+  width: 100%;
 }
 
-#navegadores {
+.ponto .ponto-corpo p.reduzido {
+  max-width: 512px;
+  width: 75%;
+}
+
+.fileira-icones {
   align-items: center;
   display: flex;
 }
 
-#navegadores li {
+.fileira-icones li {
   margin-right: 16px;
 }
 
-#navegadores svg {
+.fileira-icones svg {
   width: 32px;
   height: 32px;
 
@@ -178,16 +193,25 @@ h3 {
 }
 
 .moldura {
+  max-width: 100%;
   border: 16px solid white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
 }
 
 .esquerda {
-  transform: rotate(-6.12deg);
+  transform: rotate(-6.25deg);
+}
+
+.mezzo-esquerda {
+  transform: rotate(-3.125deg);
 }
 
 .direita {
-  transform: rotate(6.12deg);
+  transform: rotate(6.25deg);
+}
+
+.mezzo-direita {
+  transform: rotate(3.125deg);
 }
 
 footer {
@@ -203,10 +227,9 @@ footer small {
   font-size: 87.5%;
   color: white;
 
-  line-height: 1.5;
+  line-height: 2;
 
   display: block;
-
   margin-bottom: 8px;
 }
 
@@ -229,6 +252,57 @@ footer small a {
   height: 32px;
 
   color: var(--imperial-primer);
+}
+
+#sumario {
+  background-color: var(--city-lights);
+
+  padding: 32px;
+  padding-right: 48px;
+
+  text-align: center;
+}
+
+#sumario > ul { margin-top: 32px; }
+
+#sumario ul { text-align: left; }
+
+#sumario span:first-child {
+  font-family: 'Boogaloo';
+  font-size: 125%;
+  color: var(--imperial-primer);
+
+  text-transform: uppercase;
+
+  margin-bottom: 32px;
+}
+
+#sumario .titulo-sumario {
+  font-family: 'Oswald';
+  font-size: 112.5%;
+  color: var(--imperial-primer);
+}
+
+#sumario .divisao {
+  margin-top: 8px /* espaço entre um título e os subtítulos */;
+
+  margin-bottom: 16px;
+}
+
+#sumario .subtitulo-sumario {
+  font-family: 'Oswald';
+  font-size: 82.5%;
+  color: var(--fuel-town);
+
+  line-height: 1.5;
+}
+
+#sumario ul li {
+  margin-bottom: 8px /* espaço vertical entre subtítulos */;
+}
+
+.parenteses {
+  color: var(--american-river);
 }
 
 @media only screen and (max-width: 700px) {
@@ -262,8 +336,15 @@ footer small a {
     font-size: 200%;
   }
 
-  .ponto .ponto-corpo p {
+  .ponto .ponto-corpo p,
+  .ponto .ponto-corpo p.reduzido {
     width: 100%;
+  }
+
+  .fileira-icones {
+    justify-content: center;
+    
+    margin-top: 16px;
   }
 
   .ponto.ilustrado {
@@ -277,5 +358,23 @@ footer small a {
 
   .ponto .ponto-figura {
     margin-top: 32px;
+  }
+
+  .esquerda { transform: rotate(-3.125deg); }
+
+  .direita { transform: rotate(3.125deg); }
+
+  footer {
+    padding: 24px 16px 16px;
+  }
+
+  footer small {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #sumario {
+    display: none;
   }
 }

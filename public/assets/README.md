@@ -21,6 +21,11 @@
 
 - [Mobile Alt Icon | Font Awesome](https://fontawesome.com/v5.15/icons/mobile-alt?style=solid)
 
+- [Mask Icon | Font Awesome](https://fontawesome.com/v5.15/icons/mask?style=solid)
+
+- [Sliders H Icon | Font Awesome](https://fontawesome.com/v5.15/icons/sliders-h?style=solid)
+
+- [Desktop Icon | Font Awesome](https://fontawesome.com/v5.15/icons/desktop?style=solid)
 - [Windows Icon - Brands | Font Awesome](https://fontawesome.com/v5.15/icons/windows?style=brands)
 - [Linux Icon - Brands | Font Awesome](https://fontawesome.com/v5.15/icons/linux?style=brands)
 - [Apple Icon - Brands | Font Awesome](https://fontawesome.com/v5.15/icons/apple?style=brands)

@@ -1,0 +1,27 @@
+.imagem-grande {
+  margin: 16px auto;
+  display: block;
+  width: 90%;
+}
+
+#coluna-skins {
+  margin: 48px 0;
+
+  display: flex;
+}
+
+#coluna-skins img { width: 82.5%; }
+
+#coluna-skins img:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+  #coluna-skins {
+    flex-direction: column;
+  }
+
+  .imagem-grande {
+    margin: 8px 0;
+  }
+}
