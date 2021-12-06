@@ -1,7 +1,18 @@
+:root {
+  --hero-image: url(./../assets/images/site-1.png);
+}
+
 #hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(./../assets/images/burg-1.png);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)),
+    var(--hero-image);
   background-position: center;
   background-size: cover;
+
+  border-style: solid;
+  border-color: black;
+  border-left-width:  96px;
+  border-right-width: 96px;
 
   background-repeat: no-repeat;
 
@@ -58,9 +69,31 @@
   text-transform: uppercase;
 }
 
+#veja-mais {
+  text-align: center;
+}
+
+#veja-mais a {
+  font-family: 'Boogaloo';
+  font-size: 200%;
+  color: var(--fuel-town);
+  
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#titulo-galeria {
+  color: white;
+}
+
 @media only screen and (max-width: 700px) {
   #hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./../assets/images/burg-1.png);
+    background-image:
+      linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+      var(--hero-image);
+
+    border-left-width:  0;
+    border-right-width: 0;
 
     align-items: center;
 
@@ -69,6 +102,10 @@
 
   #hero-image #hero-textos {
     text-align: center;
+  }
+
+  #hero-image #hero-textos h2 {
+    font-size: 200%;
   }
 
   #hero-image #hero-textos p {

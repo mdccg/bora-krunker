@@ -1,5 +1,4 @@
 @import './stylesheets/reset.css';
-
 @import './stylesheets/fontes.css';
 @import './stylesheets/paleta.css';
 
@@ -24,7 +23,7 @@ header {
   background-color: var(--imperial-primer);
   background-size: 32px;
   
-  padding: 8px 6.25vw;
+  padding: 8px 96px;
   min-height: 96px;
   
   justify-content: space-between;
@@ -74,14 +73,110 @@ header nav ul li span {
   padding: 48px 96px;
 }
 
+.navio.claro {
+  background-color: var(--fuel-town);
+}
+
 .container {
   background-color: white;
+
+  padding: 48px;
+}
+
+h3 {
+  font-family: 'Boogaloo';
+  font-size: 300%;
+
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5;
+
+  margin-bottom: 32px;
+}
+
+.container h3 {
+  color: var(--imperial-primer);
+}
+
+.ponto {
+  margin-bottom: 64px;
+}
+
+.ponto .ponto-cabecalho {
+  align-items: center;
+  display: flex;
+
+  margin-bottom: 32px;
+}
+
+.ponto .ponto-cabecalho svg {
+  width:  32px;
+  height: 32px;
+
+  margin-right: 24px;
+}
+
+.ponto .ponto-cabecalho h4 {
+  font-family: 'Boogaloo';
+  font-size: 200%;
+}
+
+.ponto .ponto-corpo p {
+  width: 50%;
+
+  font-family: 'Roboto';
+  color: var(--dracula-orchid);
+  
+  line-height: 1.5;
+
+  margin-bottom: 8px;
+}
+
+#navegadores {
+  align-items: center;
+  display: flex;
+}
+
+#navegadores li {
+  margin-right: 16px;
+}
+
+#navegadores svg {
+  width:  32px;
+  height: 32px;
+
+  color: var(--soothing-breeze);
+}
+
+/* Caso haja uma imagem à direita... */
+.ponto.ilustrado { display: flex; }
+
+.ponto.ilustrado p { width: 75%; }
+
+.ponto .ponto-figura {
+  display: flex;
+  align-items: center;
+}
+
+.ponto .ponto-conteudo,
+.ponto .ponto-figura {
+  width: 50%;
+}
+
+.ponto .ponto-figura img {
+  max-width: 90%;
+  
+  width: 384px;
+  border: 16px solid white;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .25);
+  
+  transform: rotate(6.12deg);
 }
 
 @media only screen and (max-width: 700px) {
   header {
     flex-direction: column;
-    padding: 16px 0;
+    padding: 24px 0;
   }
 
   header h1 img,
@@ -93,11 +188,30 @@ header nav ul li span {
     justify-content: space-evenly;
   }
 
-  header nav ul li {
-    margin-right: 0;
-  }
+  header nav ul li { margin-right: 0; }
 
   .navio {
-    padding: 24px 0;
+    padding: 48px 0;
+  }
+
+  .container { padding: 32px; }
+
+  .container h3 { font-size: 200%; }
+
+  .ponto .ponto-corpo p {
+    width: 100%;
+  }
+
+  .ponto.ilustrado {
+    flex-direction: column;
+  }
+
+  .ponto .ponto-conteudo,
+  .ponto .ponto-figura {
+    width: 100%;
+  }
+
+  .ponto .ponto-figura {
+    margin-top: 32px;
   }
 }
