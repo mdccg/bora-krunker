@@ -3,15 +3,14 @@
 }
 
 #hero-image {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     var(--hero-image);
   background-position: center;
   background-size: cover;
 
   border-style: solid;
   border-color: black;
-  border-left-width:  96px;
+  border-left-width: 96px;
   border-right-width: 96px;
 
   background-repeat: no-repeat;
@@ -28,7 +27,7 @@
 }
 
 #hero-image #hero-textos h2 {
-  font-family: 'Boogaloo';
+  font-family: "Boogaloo";
   font-size: 250%;
   color: white;
 
@@ -39,7 +38,7 @@
 }
 
 #hero-image #hero-textos p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 112.5%;
   color: white;
 
@@ -57,12 +56,12 @@
   margin-right: 16px;
 
   color: white;
-  
+
   height: 32px;
 }
 
 #hero-image #acessar span {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 150%;
   color: white;
 
@@ -74,10 +73,10 @@
 }
 
 #veja-mais a {
-  font-family: 'Boogaloo';
+  font-family: "Boogaloo";
   font-size: 200%;
   color: var(--fuel-town);
-  
+
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -86,13 +85,35 @@
   color: white;
 }
 
-@media only screen and (max-width: 700px) {
+#previa-galeria {
+  display: flex;
+}
+
+#previa-galeria > *:not(:last-child) {
+  margin-right: 24px;
+}
+
+#previa-galeria img {
+  width: 100%;
+}
+
+#previa-galeria figure {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#previa-galeria a:first-child img,
+#previa-galeria a:last-child img {
+  width: 75%;
+}
+
+@media only screen and (max-width: 900px) {
   #hero-image {
-    background-image:
-      linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       var(--hero-image);
 
-    border-left-width:  0;
+    border-left-width: 0;
     border-right-width: 0;
 
     align-items: center;
@@ -110,5 +131,23 @@
 
   #hero-image #hero-textos p {
     font-size: 100%;
+  }
+
+  #previa-galeria {
+    flex-direction: column;
+  }
+
+  #previa-galeria > *:not(:last-child) {
+    margin-right: 0;
+  }
+
+  #previa-galeria img,
+  #previa-galeria a:first-child img,
+  #previa-galeria a:last-child img {
+    width: 75%;
+  }
+
+  #previa-galeria a {
+    margin-bottom: 48px;
   }
 }

@@ -31,4 +31,5 @@
 - [Krunker](https://krunker.io/)
 - [Site | Krunker.io Wiki | Fandom](https://krunkerio.fandom.com/wiki/Site)
 - [Seasons | Krunker.io Wiki | Fandom](https://krunkerio.fandom.com/wiki/Seasons)
+- [Krunker - Jogue Krunker em CrazyGames](https://www.crazygames.com.br/jogos/krunker-io)
 - [Hero Patterns | Free repeatable SVG background patterns for your web projects](https://heropatterns.com/)

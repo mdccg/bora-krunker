@@ -1,20 +1,24 @@
-@import './stylesheets/reset.css';
-@import './stylesheets/fontes.css';
-@import './stylesheets/paleta.css';
+@import "./stylesheets/reset.css";
+@import "./stylesheets/fontes.css";
+@import "./stylesheets/paleta.css";
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
+em {
+  font-style: italic;
+}
+
 /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
@@ -22,16 +26,18 @@ header {
   background-image: url(./assets/icons/brick-wall.svg);
   background-color: var(--imperial-primer);
   background-size: 32px;
-  
+
   padding: 8px 96px;
   min-height: 96px;
-  
+
   justify-content: space-between;
   align-items: center;
   display: flex;
 }
 
-header h1 img { height: 64px; }
+header h1 img {
+  height: 64px;
+}
 
 header nav ul {
   display: flex;
@@ -50,13 +56,13 @@ header nav ul li svg {
   margin-right: 16px;
 
   color: white;
-  fill:  white;
+  fill: white;
 
   height: 32px;
 }
 
 header nav ul li span {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 125%;
   color: white;
 
@@ -67,8 +73,6 @@ header nav ul li span {
   background-image: url(./assets/icons/brick-wall.svg);
   background-color: var(--wet-asphalt);
   background-size: 32px;
-
-  min-height: 512px;
 
   padding: 48px 96px;
 }
@@ -84,7 +88,7 @@ header nav ul li span {
 }
 
 h3 {
-  font-family: 'Boogaloo';
+  font-family: "Boogaloo";
   font-size: 300%;
 
   text-transform: uppercase;
@@ -110,23 +114,23 @@ h3 {
 }
 
 .ponto .ponto-cabecalho svg {
-  width:  32px;
+  width: 32px;
   height: 32px;
 
   margin-right: 24px;
 }
 
 .ponto .ponto-cabecalho h4 {
-  font-family: 'Boogaloo';
+  font-family: "Boogaloo";
   font-size: 200%;
 }
 
 .ponto .ponto-corpo p {
   width: 50%;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: var(--dracula-orchid);
-  
+
   line-height: 1.5;
 
   margin-bottom: 8px;
@@ -142,16 +146,20 @@ h3 {
 }
 
 #navegadores svg {
-  width:  32px;
+  width: 32px;
   height: 32px;
 
   color: var(--soothing-breeze);
 }
 
 /* Caso haja uma imagem à direita... */
-.ponto.ilustrado { display: flex; }
+.ponto.ilustrado {
+  display: flex;
+}
 
-.ponto.ilustrado p { width: 75%; }
+.ponto.ilustrado p {
+  width: 75%;
+}
 
 .ponto .ponto-figura {
   display: flex;
@@ -165,12 +173,62 @@ h3 {
 
 .ponto .ponto-figura img {
   max-width: 90%;
-  
+
   width: 384px;
+}
+
+.moldura {
   border: 16px solid white;
-  box-shadow: 0 0 16px rgba(0, 0, 0, .25);
-  
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+}
+
+.esquerda {
+  transform: rotate(-6.12deg);
+}
+
+.direita {
   transform: rotate(6.12deg);
+}
+
+footer {
+  background-color: black;
+
+  padding: 24px 96px 16px;
+
+  text-align: center;
+}
+
+footer small {
+  font-family: 'Roboto';
+  font-size: 87.5%;
+  color: white;
+
+  line-height: 1.5;
+
+  display: block;
+
+  margin-bottom: 8px;
+}
+
+footer small a {
+  text-decoration: underline;
+}
+
+#github {
+  background-color: var(--city-lights);
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  padding: 16px 0;
+}
+
+#github svg {
+  width:  32px;
+  height: 32px;
+
+  color: var(--imperial-primer);
 }
 
 @media only screen and (max-width: 700px) {
@@ -188,15 +246,21 @@ h3 {
     justify-content: space-evenly;
   }
 
-  header nav ul li { margin-right: 0; }
+  header nav ul li {
+    margin-right: 0;
+  }
 
   .navio {
     padding: 48px 0;
   }
 
-  .container { padding: 32px; }
+  .container {
+    padding: 32px;
+  }
 
-  .container h3 { font-size: 200%; }
+  .container h3 {
+    font-size: 200%;
+  }
 
   .ponto .ponto-corpo p {
     width: 100%;

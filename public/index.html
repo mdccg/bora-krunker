@@ -17,7 +17,7 @@
   <meta property="og:description"
     content="Um jogo multijogador on-line gratuito com inúmeras features para explorar." />
   <meta property="og:locale" content="pt_BR" />
-  <meta property="og:image" content="https://conheca-krunker.firebaseapp.com/public/assets/images/home-screen.png" />
+  <meta property="og:image" content="https://conheca-krunker.firebaseapp.com/assets/images/previa.jpeg" />
 
   <link rel="shortcut icon" href="./favicon.png" type="image/png" />
 
@@ -105,8 +105,10 @@
         </div>
 
         <div class="ponto-corpo">
-          <p>Não há por que se preocupar com armazenamento do dispositivo, uma vez que o jogo se dispõe apenas de um
-            navegador web</p>
+          <p>
+            Não há por que se preocupar com armazenamento do dispositivo, uma
+            vez que o jogo se dispõe apenas de um navegador web
+          </p>
           <br />
           <p>Navegadores disponíveis:</p>
           <ul id="navegadores">
@@ -184,15 +186,19 @@
               </path>
             </svg>
 
-            <h4 style="color: var(--electron-blue)">Também roda no seu celular...</h4>
+            <h4 style="color: var(--electron-blue)">
+              Também roda no seu celular...
+            </h4>
           </div>
           <div class="ponto-corpo">
-            <p>Graças à responsividade da página, o jogo também pode ser jogado por um dispositivo móvel com touch
-              controls</p>
+            <p>
+              Graças à responsividade da página, o jogo também pode ser jogado
+              por um dispositivo móvel com <em>touch controls</em>
+            </p>
           </div>
         </div>
         <figure class="ponto-figura">
-          <img src="./assets/images/ponto-mobile.png" alt="Krunker versão mobile" />
+          <img class="moldura direita" src="./assets/images/ponto-mobile.png" alt="Krunker versão mobile" />
         </figure>
       </article>
 
@@ -203,9 +209,43 @@
   </div>
 
   <div class="navio claro">
-    <h3 id="titulo-galeria">Galeria de imagens</h3>
+    <a href="galeria.html">
+      <h3 id="titulo-galeria">Galeria de imagens</h3>
+    </a>
 
-    <span>To-do terminar aqui</span>
+    <div id="previa-galeria">
+      <a href="galeria.html#citadel">
+        <figure>
+          <img class="moldura esquerda" src="./assets/images/citadel-1.png" alt="Mapa citadel" />
+        </figure>
+      </a>
+
+      <a href="galeria.html#lagoon">
+        <figure>
+          <img class="moldura" src="./assets/images/lagoon-10.png" alt="Mapa lagoon" />
+        </figure>
+      </a>
+
+      <a href="galeria.html#lostworld">
+        <figure>
+          <img class="moldura direita" src="./assets/images/lostworld-7.png" alt="Mapa lostworld" />
+        </figure>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <small>Website ilustrativo e sem fins lucrativos apresentado no <a
+        href="https://www.ifms.edu.br/campi/campus-aquidauana/cursos/graduacao/sistemas-para-internet/sistemas-para-internet" target="_blank">Curso
+        Superior de TSI do IFMS</a> como requisito para obtenção da nota parcial das
+      atividades da unidade curricular Construção de Páginas Web 1.</small>
+    <small>Todos os direitos reservados à Yendis AG.</small>
+  </footer>
+
+  <div id="github">
+    <a href="https://github.com/mdccg" target="_blank">
+      <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+    </a>
   </div>
 
   <script type="module">
@@ -224,7 +264,7 @@
       storageBucket: "cpw1-93d13.appspot.com",
       messagingSenderId: "297778390917",
       appId: "1:297778390917:web:63c86592445780e78bc6ec",
-      measurementId: "G-RNL241PSS0"
+      measurementId: "G-RNL241PSS0",
     };
 
     // Initialize Firebase
