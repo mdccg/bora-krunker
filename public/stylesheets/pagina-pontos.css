@@ -1,7 +1,10 @@
 .imagem-grande {
-  margin: 16px auto;
+  margin: 32px auto;
   display: block;
   width: 90%;
+
+  border: 12px solid white;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .25);
 }
 
 #coluna-skins {
@@ -16,12 +19,50 @@
   margin-bottom: 16px;
 }
 
+#titulo-pontos-negativos {
+  color: var(--chi-gong);
+}
+
+#pontos-negativos {
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+#pontos-negativos:hover {
+  opacity: 100%;
+}
+
+#pontos-negativos-msg {
+  margin-bottom: 64px;
+}
+
+#pontos-negativos-msg > span {
+  font-family: 'Roboto';
+  font-size: 100%;
+  color: var(--dracula-orchid);
+  
+  line-height: 1.5;
+}
+
+#trolling { position: absolute; }
+
+#trolling img {
+  position: relative;
+  bottom: 96px;
+  
+  width: 64px;
+  
+  animation: roda-regina 3s linear infinite;
+}
+
 @media only screen and (max-width: 700px) {
-  #coluna-skins {
-    flex-direction: column;
+  .imagem-grande {
+    margin: 24px auto;
   }
 
-  .imagem-grande {
-    margin: 8px 0;
+  #coluna-skins {
+    flex-direction: column;
+
+    margin: 24px 0;
   }
 }

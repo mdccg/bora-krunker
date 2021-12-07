@@ -1,23 +1,35 @@
 :root {
   /* base URL => https://flatuicolors.com/palette */
 
-  /* /defo */
-  --wet-asphalt:     #34495e;
+  /* defo */
+  --green-sea:    #16a085;
+  --orange:       #f39c12;
+  --nephritis:    #27ae60;
+  --carrot:       #e67e22;
+  --alizarin:     #e74c3c;
+  --wet-asphalt:  #34495e;
 
-  /* /us */
-  --mint-leaf:       #00b894;
-  --electron-blue:   #0984e3;
-  --chi-gong:        #d63031;
-  --city-lights:     #dfe6e9;
-  --soothing-breeze: #b2bec3;
-  --american-river:  #636e72;
-  --dracula-orchid:  #2d3436;
+  /* us */
+  --mint-leaf:        #00b894;
+  --electron-blue:    #0984e3;
+  --chi-gong:         #d63031;
+  --city-lights:      #dfe6e9;
+  --soothing-breeze:  #b2bec3;
+  --american-river:   #636e72;
+  --dracula-orchid:   #2d3436;
   
-  /* /ca */
+  /* au */
+  --exodus-fruit: #686de0;
+
+  /* gb */
+  --nanohanacha-gold: #e1b12c;
+  --mazarine-blue:    #273c75;
+
+  /* ca */
   --fuel-town:       #576574;
   --imperial-primer: #222f3e;
 
   /* https://www.oracle.com/uk/a/ocom/docs/java-licensing-logo-guidelines-1908204.pdf */
-  --java-blue:       #007396;
-  --java-orange:     #ed8b00;
+  --java-blue:   #007396;
+  --java-orange: #ed8b00;
 }

@@ -1,6 +1,7 @@
 @import "./stylesheets/reset.css";
 @import "./stylesheets/fontes.css";
 @import "./stylesheets/paleta.css";
+@import "./stylesheets/keyframes.css";
 
 a {
   text-decoration: none;
@@ -88,12 +89,13 @@ header nav ul li span {
 }
 
 .navio.dividido .container {
-  flex: 1;
+  width: 100%;
 }
 
 .container {
   background-color: white;
 
+  box-sizing: border-box;
   padding: 48px;
 }
 
@@ -258,14 +260,17 @@ footer small a {
   background-color: var(--city-lights);
 
   padding: 32px;
-  padding-right: 48px;
 
   text-align: center;
 }
 
-#sumario > ul { margin-top: 32px; }
+#sumario > ul { margin-top: 32px /* espaço entre "SUMÁRIO" e o sumário de fato */;}
 
-#sumario ul { text-align: left; }
+#sumario ul {
+  text-align: left;
+
+  width: 192px;
+}
 
 #sumario span:first-child {
   font-family: 'Boogaloo';
@@ -284,7 +289,7 @@ footer small a {
 }
 
 #sumario .divisao {
-  margin-top: 8px /* espaço entre um título e os subtítulos */;
+  margin-top: 12px /* espaço entre um título e os subtítulos */;
 
   margin-bottom: 16px;
 }
@@ -303,6 +308,12 @@ footer small a {
 
 .parenteses {
   color: var(--american-river);
+}
+
+.link {
+  color: var(--fuel-town);
+
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 700px) {

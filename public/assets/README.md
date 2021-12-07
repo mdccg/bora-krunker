@@ -20,9 +20,7 @@
 - [Internet Explorer Icon - Brands | Font Awesome](https://fontawesome.com/v5.15/icons/internet-explorer?style=brands)
 
 - [Mobile Alt Icon | Font Awesome](https://fontawesome.com/v5.15/icons/mobile-alt?style=solid)
-
 - [Mask Icon | Font Awesome](https://fontawesome.com/v5.15/icons/mask?style=solid)
-
 - [Sliders H Icon | Font Awesome](https://fontawesome.com/v5.15/icons/sliders-h?style=solid)
 
 - [Desktop Icon | Font Awesome](https://fontawesome.com/v5.15/icons/desktop?style=solid)
@@ -31,6 +29,17 @@
 - [Apple Icon - Brands | Font Awesome](https://fontawesome.com/v5.15/icons/apple?style=brands)
 - [Github Icon - Brands | Font Awesome](https://fontawesome.com/v5.15/icons/github?style=brands)
 
+- [List Icon | Font Awesome](https://fontawesome.com/v5.15/icons/list?style=solid)
+- [Code Icon | Font Awesome](https://fontawesome.com/v5.15/icons/code?style=solid)
+- [Dumbbell Icon | Font Awesome](https://fontawesome.com/v5.15/icons/dumbbell?style=solid)
+- [Running Icon | Font Awesome](https://fontawesome.com/v5.15/icons/running?style=solid)
+- [Glass Cheers Icon | Font Awesome](https://fontawesome.com/v5.15/icons/glass-cheers?style=solid)
+- [Balance Scale Icon | Font Awesome](https://fontawesome.com/v5.15/icons/balance-scale?style=solid)
+- [Skull Crossbones Icon | Font Awesome](https://fontawesome.com/v5.15/icons/skull-crossbones?style=solid)
+- [Hiking Icon | Font Awesome](https://fontawesome.com/v5.15/icons/hiking?style=solid)
+- [Flag Usa Icon | Font Awesome](https://fontawesome.com/v5.15/icons/flag-usa?style=solid)
+- [Chess Icon | Font Awesome](https://fontawesome.com/v5.15/icons/chess?style=solid)
+
 ## Miscelâneas
 
 - [Krunker](https://krunker.io/)
@@ -38,3 +47,4 @@
 - [Seasons | Krunker.io Wiki | Fandom](https://krunkerio.fandom.com/wiki/Seasons)
 - [Krunker - Jogue Krunker em CrazyGames](https://www.crazygames.com.br/jogos/krunker-io)
 - [Hero Patterns | Free repeatable SVG background patterns for your web projects](https://heropatterns.com/)
+- [Ficheiro:Trollface.png – Wikipédia, a enciclopédia livre](https://pt.wikipedia.org/wiki/Ficheiro:Trollface.png)
