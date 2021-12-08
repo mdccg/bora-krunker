@@ -39,6 +39,7 @@
 - [Hiking Icon | Font Awesome](https://fontawesome.com/v5.15/icons/hiking?style=solid)
 - [Flag Usa Icon | Font Awesome](https://fontawesome.com/v5.15/icons/flag-usa?style=solid)
 - [Chess Icon | Font Awesome](https://fontawesome.com/v5.15/icons/chess?style=solid)
+- [Battery Full Icon | Font Awesome](https://fontawesome.com/v5.15/icons/battery-full?style=solid)
 
 ## Miscelâneas
 

@@ -55,6 +55,18 @@
   animation: roda-regina 3s linear infinite;
 }
 
+#msg-final {
+  text-align: center;
+}
+
+#msg-final span {
+  font-family: 'Roboto';
+  font-size: 125%;
+  color: var(--soothing-breeze);
+
+  font-style: italic;
+}
+
 @media only screen and (max-width: 700px) {
   .imagem-grande {
     margin: 24px auto;
