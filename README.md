@@ -9,7 +9,7 @@ O website consiste na propaganda de um jogo preferido pelos discentes. Deve have
 
 <sub><sup>Me dói não poder usar JavaScript para fazer esse trabalho... =(</sup></sub>
 
-<a href="https://figma.fun/RdXpU8" target="_blank" title="Protótipo visual">
+<a href="https://figma.fun/C7hkkB" target="_blank" title="Protótipo visual">
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
 </a>
 
