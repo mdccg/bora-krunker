@@ -1,0 +1,7 @@
+title: Bora Krunker
+description: Propaganda sem fins lucrativos do jogo de navegador on-line Krunker.
+baseurl: "" # Mantenha vazio se for hospedado na raiz do domínio
+url: "https://mdccg.github.io"
+
+source: public
+destination: _site
